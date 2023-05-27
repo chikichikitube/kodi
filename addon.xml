@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.tube.chikichiki"
+version="1.0.0"
+name="ChikiChiki Tube"
+provider-name="Abed_Sako">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.requests" version="2.27.1+matrix.1"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Stream Gaki no tsukai, Wednesday Downtown and more</summary>
+  <description lang="en_GB">A kodi addon for the website chikichiki.tube, A no-nonsense federated peer-to-peer video streaming site hosting Gaki no Tsukai and other related comedy videos.</description>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.png</fanart>
+    <screenshot>resources\screenshot1.png</screenshot>
+    <screenshot>resources\screenshot2.png</screenshot>
+    <screenshot>resources\screenshot3.png</screenshot>    
+  </assets>
+  <news>Addon done.</news>
+</extension>
+</addon>
